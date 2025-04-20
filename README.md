@@ -56,7 +56,7 @@ Three classification models were implemented:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ├── data/ # Raw dataset (not uploaded) ├── notebooks/ # Jupyter Notebook with full workflow ├── README.md # You're here!
 
