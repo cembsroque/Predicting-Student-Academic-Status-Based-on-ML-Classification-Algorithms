@@ -44,17 +44,17 @@ EDA was supported by visual insights using Matplotlib, Seaborn, and Plotly. The 
   These helped in analyzing the shape of the distributions and detecting skewness or anomalies.
 
   - Bar Charts \
-  Unemployment Rate by Course: Highlighted which academic programs were associated with higher post-graduation unemployment.
+    - Unemployment Rate by Course: Highlighted which academic programs were associated with higher post-graduation unemployment.
 
-  Nationality Distribution: Displayed using a log-scaled bar chart to better visualize less-represented groups.
+    - Nationality Distribution: Displayed using a log-scaled bar chart to better visualize less-represented groups.
 
-  Target Distribution: The target variable "Enrolled" (indicating students who remained enrolled) is underrepresented compared to the other two classes — "Graduate" and "Dropout" — revealing a class imbalance   that may impact model performance.
+    - Target Distribution: The target variable "Enrolled" (indicating students who remained enrolled) is underrepresented compared to the other two classes — "Graduate" and "Dropout" — revealing a class imbalance   that may impact model performance.
 
   - Pie Charts \
-  Illustrated the proportion of Mother’s and Father’s education levels in the dataset, as also gender and course distributions.
+    - Illustrated the proportion of Mother’s and Father’s education levels in the dataset, as also gender and course distributions.
 
   - Boxplots \
-  Used to compare Previous Qualification types against admission grades. Helped identify variations in performance based on different academic backgrounds and detect outliers.
+    - Used to compare Previous Qualification types against admission grades. Helped identify variations in performance based on different academic backgrounds and detect outliers.
 
 
 ---
