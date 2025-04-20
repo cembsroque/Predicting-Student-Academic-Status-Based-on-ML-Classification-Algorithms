@@ -56,9 +56,9 @@ EDA was supported by visual insights using Matplotlib, Seaborn, and Plotly. The 
   - Boxplots 
     - Used to compare Previous Qualification types against admission grades. Helped identify variations in performance based on different academic backgrounds and detect outliers.
 
-  -  Pairplot
-    - A Seaborn pairplot was generated to visualize pairwise relationships between key numerical variables, colored by the target class ("Enrolled", "Graduate", and "Dropout").
-    - This helped in spotting potential clusters, linear separability, and overlapping regions between classes.
+  -  Pairplot \
+    - A Seaborn pairplot was generated to visualize pairwise relationships between key numerical variables, colored by the target class ("Enrolled", "Graduate", and "Dropout"). \
+    - This helped in spotting potential clusters, linear separability, and overlapping regions between classes. \
     - Notably, some variables (such as Admission Grade and Age at Enrollment) showed distinguishable patterns among the classes, which can inform feature selection and model choice.
 
 ---
