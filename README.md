@@ -20,7 +20,7 @@ By identifying students at risk of dropping out, institutions can intervene earl
 
 The dataset includes demographic and academic information on students, such as:
 
-- Gender, marital status, age
+- Gender, age, nationality
 - Previous qualifications
 - Application mode and education level
 - Target (dropout/enrolled/graduated)
@@ -28,7 +28,36 @@ The dataset includes demographic and academic information on students, such as:
 > Note: The dataset was preprocessed to handle categorical features and missing values. Classes were slightly imbalanced, with fewer examples in the “Enrolled” category.
 
 ---
+## Exploratory Data Analysis (EDA)
+Before modeling, an in-depth exploration of the dataset was conducted to uncover patterns, assess data quality, and guide feature engineering.
 
+### Categorical Feature Mapping
+Several categorical variables (e.g., education level, course, language, etc.) were originally encoded as numerical codes.
+
+These were mapped to human-readable labels using dictionaries to improve interpretability and visualization.
+
+### Visualizations
+EDA was supported by visual insights using Matplotlib, Seaborn, and Plotly. The following types of plots were used:
+
+  Distribution Plots
+  Admission Grades and Age at Enrollment were plotted using histograms with KDE (Kernel Density Estimate) overlays.
+  These helped in analyzing the shape of the distributions and detecting skewness or anomalies.
+
+  Bar Charts
+  Unemployment Rate by Course: Highlighted which academic programs were associated with higher post-graduation unemployment.
+
+  Nationality Distribution: Displayed using a log-scaled bar chart to better visualize less-represented groups.
+
+  Target Distribution: The target variable "Enrolled" (indicating students who remained enrolled) is underrepresented compared to the other two classes — "Graduate" and "Dropout" — revealing a class imbalance   that may impact model performance.
+
+  Pie Charts
+  Illustrated the proportion of Mother’s and Father’s education levels in the dataset, as also gender and course distributions.
+
+  Boxplots
+  Used to compare Previous Qualification types against admission grades. Helped identify variations in performance based on different academic backgrounds and detect outliers.
+
+
+---
 ## Models & Techniques
 
 Three classification models were implemented:
