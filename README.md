@@ -39,22 +39,27 @@ These were mapped to human-readable labels using dictionaries to improve interpr
 ### Visualizations
 EDA was supported by visual insights using Matplotlib, Seaborn, and Plotly. The following types of plots were used:
 
-  - Distribution Plots \
-  Admission Grades and Age at Enrollment were plotted using histograms with KDE (Kernel Density Estimate) overlays.
+  - Distribution Plots 
+    - Admission Grades and Age at Enrollment were plotted using histograms with KDE (Kernel Density Estimate) overlays.
   These helped in analyzing the shape of the distributions and detecting skewness or anomalies.
 
-  - Bar Charts \
+  - Bar Charts 
     - Unemployment Rate by Course: Highlighted which academic programs were associated with higher post-graduation unemployment.
 
     - Nationality Distribution: Displayed using a log-scaled bar chart to better visualize less-represented groups.
 
     - Target Distribution: The target variable "Enrolled" (indicating students who remained enrolled) is underrepresented compared to the other two classes — "Graduate" and "Dropout" — revealing a class imbalance   that may impact model performance.
 
-  - Pie Charts \
+  - Pie Charts 
     - Illustrated the proportion of Mother’s and Father’s education levels in the dataset, as also gender and course distributions.
 
-  - Boxplots \
+  - Boxplots 
     - Used to compare Previous Qualification types against admission grades. Helped identify variations in performance based on different academic backgrounds and detect outliers.
+
+  -  Pairplot
+    - A Seaborn pairplot was generated to visualize pairwise relationships between key numerical variables, colored by the target class ("Enrolled", "Graduate", and "Dropout"). This helped in spotting potential clusters, linear separability, and overlapping regions between classes.
+    - Notably, some variables (such as Admission Grade and Age at Enrollment) showed distinguishable patterns among the classes, which can inform feature selection and model choice.
+
 
 
 ---
